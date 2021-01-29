@@ -1,18 +1,36 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { createMuiTheme } from '@material-ui/core/styles';
 
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightyellow;
   }
 `
-
-const theme = {
-  colors: {
-    primary: '#0070f3',
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: '#757ce8',
+      main: '#3f50b5',
+      dark: '#002884',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#ff7961',
+      main: '#f44336',
+      dark: '#ba000d',
+      contrastText: '#000',
+    },
   },
-}
+});
+
+// const theme = {
+//   colors: {
+//     primary: '#0070f3',
+//   },
+// }
 
 export default function App({ Component, pageProps }) {
   return (
