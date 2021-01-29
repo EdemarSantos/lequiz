@@ -6,7 +6,11 @@ import styled from 'styled-components'
 // `
 
 function Title(props) {
-  return <h1>{props.children}</h1>
+  return (
+    <h1>
+      {props.children}
+    </h1>
+  )
 }
 
 
