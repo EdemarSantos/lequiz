@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import db from '../db.json';
 import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo';
 
 const BackgroundImage = styled.div`
   background-image: url(${db.bg});
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <BackgroundImage>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>The legend of zelda</h1>
