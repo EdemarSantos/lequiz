@@ -25,10 +25,10 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Quiz dos gatos</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>lorem upsum dolor sit amet...</p>
+            <p>Em breve, na próxima aula...</p>
           </Widget.Content>
         </Widget>
 
@@ -40,9 +40,9 @@ export default function Home() {
             <p>lorem upsum dolor sit amet...</p>
           </Widget.Content>
         </Widget>
+        <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/EdemarSantos" />
-      <Footer />
     </QuizBackground>
   )
 }
