@@ -1,9 +1,10 @@
-import styled from 'styled-components';
 import React from 'react';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const textoDaLogo='Le Quiz';
+const textoDaLogo = 'Le Quiz';
 
+// eslint-disable-next-line no-unused-vars
 function Logo({ className }) {
   return (
     <svg height="100" width="100">
@@ -13,8 +14,13 @@ function Logo({ className }) {
         {textoDaLogo}
       </text>
       <circle cx="0" cy="50" r="6" fill="#ffffffd0">
-        <animate attributeName="cx" from="0" to="200"
-          dur="20s" repeatCount="indefinite" />
+        <animate
+          attributeName="cx"
+          from="0"
+          to="200"
+          dur="20s"
+          repeatCount="indefinite"
+        />
       </circle>
     </svg>
   );
