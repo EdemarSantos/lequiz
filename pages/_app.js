@@ -8,6 +8,15 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     background-color: #c4e7be;
+
+    display: flex; 
+    flex-direction: column; 
+    font-family: 'Lato', sans-serif; 
+    color: ${({ theme }) => theme.colors.contrastText};
+
+    html, body {
+      min-height: 100vh;
+    }
   }
 `
 const theme = db.theme;
