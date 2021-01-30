@@ -6,7 +6,7 @@ margin-top: 24px;
 margin-bottom: 24px;
 border: 1px solid ${db.theme.colors.primary};
 background-color: ${db.theme.colors.mainBg};
-border-radius: 4px;
+border-radius: 12px;
 overflow: hidden;
 
 h1, h2, h3 {
