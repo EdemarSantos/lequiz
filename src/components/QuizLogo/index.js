@@ -12,8 +12,8 @@ function Logo({ className }) {
       <text x="25" y="55" fill="#fff">
         {textoDaLogo}
       </text>
-      <circle cx="0" cy="50" r="2" fill="#fff">
-        <animate attributeName="cx" from="0" to="300"
+      <circle cx="0" cy="50" r="6" fill="#ffffffd0">
+        <animate attributeName="cx" from="0" to="200"
           dur="20s" repeatCount="indefinite" />
       </circle>
     </svg>
