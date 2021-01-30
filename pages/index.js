@@ -27,7 +27,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Quiz dos gatos</h1>
+            <h1>O quiz de gatos mais foto que existe!</h1>
           </Widget.Header>
           <Widget.Content>
             <p>Em breve, na próxima aula...</p>
